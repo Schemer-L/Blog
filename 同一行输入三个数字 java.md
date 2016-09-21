@@ -33,6 +33,26 @@ public class first {
 	}
 }
 ```
+
+**更简单的方法**
+```
+package com.lanqiaobie;
+
+import java.util.*;
+
+public class One
+
+{
+    public static void main(String args[])
+    {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+        System.out.println(a + b + c);
+    }
+}
+```
 >样例输入：12 3 4
 >样例输出：19
 
