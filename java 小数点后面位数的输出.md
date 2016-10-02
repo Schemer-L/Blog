@@ -7,7 +7,6 @@ tags:
 ---
 ```
 import java.text.DecimalFormat;
-import java.math.*;
 import java.util.*;
 
 public class Three {
@@ -15,10 +14,12 @@ public class Three {
 		DecimalFormat df = new DecimalFormat("0.0000000");
 		Scanner sc = new Scanner(System.in);
 		int r;
-		double s;
+	    double s;
 		r = sc.nextInt();
 		s = Math.PI * r *r;
+		sc.close();
 		System.out.println(df.format(s));
+		System.out.printf("%.7f\n", s);
 	}
 }
 
